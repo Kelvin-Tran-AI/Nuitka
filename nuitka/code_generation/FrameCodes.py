@@ -397,6 +397,7 @@ Nuitka_Frame_ClearLocals(%(frame_identifier)s);
             renderTemplateFromString(
                 template_frame_guard_normal_return_handler,
                 frame_identifier=frame_identifier,
+                frame_cache_identifier=frame_cache_identifier,
                 return_exit=parent_return_exit,
                 frame_return_exit=frame_return_exit,
                 needs_preserve=needs_preserve,
